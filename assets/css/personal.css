@@ -1,24 +1,15 @@
-#work1_button {
+#work3_button {
   z-index: 1;
   position: absolute;
-  top: 37%;
+  top: 86%;
   left : 57.5%;
-}
-
-.work2_button {
-  position: absolute;
-
-}
-
-.work3_button {
-  position: absolute;
 }
 
 
 /* iPhone 6/7/8/Plus */
 @media screen and (min-width: 376px) and (max-width: 414px) {
-  #work1_button {
-    top: 44.5%;
+  #work3_button {
+    top: 48.5%;
     left : 83%;
   }
 }
