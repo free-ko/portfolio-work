@@ -1,39 +1,110 @@
+#work1_img,
+#work2_img,
+#work3_img { 
+  position: relative;
+}
+
 #work3_button {
   z-index: 1;
   position: absolute;
-  top: 86%;
-  left : 57.5%;
 }
+
+#work2_button {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+}
+
+#work1_button {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 13%;
+}
+
+
 
 
 /* iPhone 5/SE */
 @media screen and (max-width: 320px) {
   #work3_button {
-    top: 49%;
-    left : 83%;
+    z-index: 1;
+    position: absolute;
+  }
+  
+  #work2_button {
+    z-index: 1;
+    position: absolute;
+    top: 17.5%;
+  }
+  
+  #work1_button {
+    z-index: 1;
+    position: absolute;
+    top: 17.5%;
+    left: 82%;
   }
 }
 
 /* iPhone 6/7/8 */
 @media screen and (min-width: 321px) and (max-width: 375px) {
   #work3_button {
-    top: 153rem;
-    left : 19rem;
+    z-index: 1;
+    position: absolute;
+  }
+  
+  #work2_button {
+    z-index: 1;
+    position: absolute;
+    top: 17.5%;
+  }
+  
+  #work1_button {
+    z-index: 1;
+    position: absolute;
+    top: 17.5%;
+    left: 82%;
   }
 }
 
 /* iPhone 6/7/8/Plus */
 @media screen and (min-width: 376px) and (max-width: 414px) {
   #work3_button {
-    top: 151.5rem;
-    left : 22rem;
+    z-index: 1;
+    position: absolute;
+  }
+  
+  #work2_button {
+    z-index: 1;
+    position: absolute;
+    top: 17.5%;
+  }
+  
+  #work1_button {
+    z-index: 1;
+    position: absolute;
+    top: 17.5%;
+    left: 82%;
   }
 }
 
 /* iPhone X */
 @media screen and (height: 812px) {
   #work3_button {
-    top: 48.8%;
-    left : 83%;
+    z-index: 1;
+    position: absolute;
+  }
+  
+  #work2_button {
+    z-index: 1;
+    position: absolute;
+    top: 17.5%;
+  }
+  
+  #work1_button {
+    z-index: 1;
+    position: absolute;
+    top: 17.5%;
+    left: 82%;
   }
 }
