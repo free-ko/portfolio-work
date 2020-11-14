@@ -1549,15 +1549,81 @@ input, select, textarea {
 		button.icon.circle,
 		.button.icon.circle {
 			position: relative;
-			width: 3.125rem;
-			height: 3.125rem;
-			line-height: 3.125rem;
-			text-indent: 3.125rem;
+			width: 3rem;
+			height: 3rem;
+			line-height: 3rem;
+			text-indent: 3rem;
 			border-radius: 100%;
 			overflow: hidden;
 			padding: 0;
 			letter-spacing: 0;
+			opacity: 0.7;
 		}
+
+/* iPhone 5/SE */
+@media screen and (max-width:320px) {
+	input[type="submit"].icon.circle,
+	input[type="reset"].icon.circle,
+	input[type="button"].icon.circle,
+	button.icon.circle,
+	.button.icon.circle {
+		width: 2.5rem;
+		height: 2.5rem;
+		line-height: 2.5rem;
+		text-indent: 2.5rem;
+		letter-spacing: 0;
+		opacity: 0.7;
+	}
+}
+
+/* iPhone 6/7/8 */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+	input[type="submit"].icon.circle,
+	input[type="reset"].icon.circle,
+	input[type="button"].icon.circle,
+	button.icon.circle,
+	.button.icon.circle {
+		width: 2.6rem;
+		height: 2.6rem;
+		line-height: 2.6rem;
+		text-indent: 2.6rem;
+		letter-spacing: 0;
+		opacity: 0.7;
+	}
+}
+
+/* iPhone 6/7/8/Plus */
+@media screen and (min-width: 376px) and (max-width: 414px) {
+	input[type="submit"].icon.circle,
+	input[type="reset"].icon.circle,
+	input[type="button"].icon.circle,
+	button.icon.circle,
+	.button.icon.circle {
+		width: 2.7rem;
+		height: 2.7rem;
+		line-height: 2.7rem;
+		text-indent: 2.7rem;
+		letter-spacing: 0;
+		opacity: 0.7;
+	}
+}
+
+/* iPhone X */
+@media screen and (height: 812px) {
+	input[type="submit"].icon.circle,
+	input[type="reset"].icon.circle,
+	input[type="button"].icon.circle,
+	button.icon.circle,
+	.button.icon.circle {
+		width: 2.7rem;
+		height: 2.7rem;
+		line-height: 2.7rem;
+		text-indent: 2.7rem;
+		letter-spacing: 0;
+		opacity: 0.7;
+	}
+}
+
 
 			input[type="submit"].icon.circle:before,
 			input[type="reset"].icon.circle:before,
@@ -1570,7 +1636,7 @@ input, select, textarea {
 				left: 0;
 				width: inherit;
 				height: inherit;
-				font-size: 1.25rem;
+				font-size: 1.15rem;
 				line-height: inherit;
 				margin: 0;
 				text-indent: 0;

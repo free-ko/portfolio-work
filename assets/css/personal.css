@@ -4,107 +4,123 @@
   position: relative;
 }
 
-#work3_button {
+#work1_button {
   z-index: 1;
   position: absolute;
+  top: 88%;
+  left: 9%;
 }
 
 #work2_button {
   z-index: 1;
   position: absolute;
-  top: 50%;
+  top: 88%;
+  left: 21%;
 }
 
-#work1_button {
+#work3_button {
   z-index: 1;
   position: absolute;
-  top: 50%;
-  left: 13%;
+  top: 38%;
+  left: 21%;
 }
+
 
 
 
 
 /* iPhone 5/SE */
 @media screen and (max-width: 320px) {
-  #work3_button {
+  #work1_button {
     z-index: 1;
     position: absolute;
+    top: 17.7%;
+    left: 33%;
   }
   
   #work2_button {
     z-index: 1;
     position: absolute;
-    top: 17.5%;
+    top: 17.7%;
+    left: 85%;
   }
   
-  #work1_button {
+  #work3_button {
     z-index: 1;
     position: absolute;
-    top: 17.5%;
-    left: 82%;
+    top: 7.5%;
+    left: 85%;
   }
 }
 
 /* iPhone 6/7/8 */
 @media screen and (min-width: 321px) and (max-width: 375px) {
-  #work3_button {
+  #work1_button {
     z-index: 1;
     position: absolute;
+    top: 17.8%;
+    left: 36%;
   }
   
   #work2_button {
     z-index: 1;
     position: absolute;
-    top: 17.5%;
+    top: 17.8%;
+    left: 86%;
   }
   
-  #work1_button {
+  #work3_button {
     z-index: 1;
     position: absolute;
-    top: 17.5%;
-    left: 82%;
+    top: 7.5%;
+    left: 86%;
   }
 }
 
 /* iPhone 6/7/8/Plus */
 @media screen and (min-width: 376px) and (max-width: 414px) {
-  #work3_button {
+  #work1_button {
     z-index: 1;
     position: absolute;
+    top: 17.8%;
+    left: 37%;
   }
   
   #work2_button {
     z-index: 1;
     position: absolute;
-    top: 17.5%;
+    top: 17.8%;
+    left: 87%;
   }
   
-  #work1_button {
+  #work3_button {
     z-index: 1;
     position: absolute;
-    top: 17.5%;
-    left: 82%;
+    top: 7.5%;
+    left: 87%;
   }
 }
 
 /* iPhone X */
 @media screen and (height: 812px) {
-  #work3_button {
+  #work1_button {
     z-index: 1;
     position: absolute;
+    top: 17.8%;
+    left: 36%;
   }
   
   #work2_button {
     z-index: 1;
     position: absolute;
-    top: 17.5%;
+    top: 17.8%;
+    left: 86%;
   }
   
-  #work1_button {
+  #work3_button {
     z-index: 1;
     position: absolute;
-    top: 17.5%;
-    left: 82%;
+    top: 7.5%;
+    left: 86%;
   }
 }
