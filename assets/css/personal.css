@@ -25,6 +25,13 @@
   left: 21%;
 }
 
+#work4_button {
+  z-index: 1;
+  position: absolute;
+  top: 88%;
+  left: 41%;
+}
+
 
 
 
@@ -51,6 +58,13 @@
     top: 7.5%;
     left: 85%;
   }
+
+  #work4_button {
+    z-index: 1;
+    position: absolute;
+    top: 42%;
+    left: 85%;
+  }
 }
 
 /* iPhone 6/7/8 */
@@ -73,6 +87,13 @@
     z-index: 1;
     position: absolute;
     top: 7.5%;
+    left: 86%;
+  }
+
+  #work4_button {
+    z-index: 1;
+    position: absolute;
+    top: 42%;
     left: 86%;
   }
 }
@@ -99,6 +120,13 @@
     top: 7.5%;
     left: 87%;
   }
+
+  #work4_button {
+    z-index: 1;
+    position: absolute;
+    top: 42%;
+    left: 87%;
+  }
 }
 
 /* iPhone X */
@@ -121,6 +149,13 @@
     z-index: 1;
     position: absolute;
     top: 7.5%;
+    left: 86%;
+  }
+
+  #work4_button {
+    z-index: 1;
+    position: absolute;
+    top: 42%;
     left: 86%;
   }
 }
